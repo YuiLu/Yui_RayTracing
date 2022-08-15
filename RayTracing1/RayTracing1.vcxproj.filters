@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="texture">
+      <UniqueIdentifier>{d39d80f4-3ba5-4ea0-90e3-40ad374228b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\external">
+      <UniqueIdentifier>{3e31e12f-7f4e-4585-9395-20bf4c3b54cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable_list.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\library\stb-master\stb_image.h">
+      <Filter>include\external</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_rtw.h">
+      <Filter>include\external</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\library\stb-master\stb_image_write.h">
+      <Filter>include\external</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\library\OBJ-Loader-master\Source\OBJ_Loader.h">
+      <Filter>include\external</Filter>
+    </ClInclude>
+    <ClInclude Include="aarect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="constant_medium.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\earthmap.jpg">
+      <Filter>texture</Filter>
+    </Image>
+    <Image Include="texture\earthmap2.jpg">
+      <Filter>texture</Filter>
+    </Image>
+    <Image Include="texture\StarrySky.jpg">
+      <Filter>texture</Filter>
+    </Image>
+    <Image Include="texture\StarrySky2.jpg">
+      <Filter>texture</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
